@@ -4,7 +4,7 @@ Implementación responsive del reto **News homepage** de Frontend Mentor, maquet
 
 - **Autor:** Jhanpool
 - **Actividad:** Diseño Front End — Corte 3 (EXIA, Universidad Autónoma del Caribe)
-- **Sitio publicado:** _[pega aquí el enlace de GitHub Pages / Netlify]_
+- **Sitio publicado:** https://heiberjp.github.io/news-homepage/
 
 ## Herramientas
 HTML5 semántico · CSS3 (Grid, variables, media queries) · JavaScript básico (menú mobile) · Fuente Inter (Google Fonts) · Chrome DevTools para probar tamaños.
@@ -35,4 +35,6 @@ news-homepage/
 **Accesibilidad.** Etiquetas semánticas (`header`, `nav`, `main`, `article`, `aside`, `section`, `footer`), textos `alt`, y estados `:hover` y `:focus-visible` en todos los elementos interactivos.
 
 ## Reflexión: dificultad principal
-_[Completar con tu experiencia: qué fue lo más difícil de la implementación y cómo lo resolviste.]_
+La mayor dificultad fue replicar el diseño con precisión usando solo imágenes JPG, sin acceso a Figma. Tuve que estimar tamaños, márgenes y tipografías comparando mi página con la captura del diseño. También me costó entender cuándo usar `grid-template-areas` para el layout general y cuándo un Grid anidado dentro del artículo destacado. Otro reto fue el menú móvil, porque combina CSS (el panel con `transform` y `transition`) con un poco de JavaScript para abrirlo y cerrarlo.
+
+Lo resolví probando en DevTools a distintos anchos hasta que todo quedó ordenado. Con esta práctica aprendí que el Grid permite cambiar la distribución completa de una pantalla a otra sin tocar el HTML.
